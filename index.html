@@ -150,36 +150,47 @@
 									<span class="icon solid major fa-code"></span>
 									<h3>LoRaWAN and The Things Network</h3>
 									<p>IoT devices often require interconnections in a network such as Wireless Sensor Networks(WSN). One
-way of creating such connection is by using LoraWAN - LoraWAN is a low power wide area networking
-protocol. Acceeration, relative humidity and temperature measurements taken by a PySense device were collected, processed and transmitted using LoRa to The
-Things Network(TTN). The LoPy board is connected to a LoRaWAN gaateway.  Integration to some third party system for data visualization and possible analysis. In this case, Cayenne (myDevices) was used</p>
-attempted.
+										way of creating such connection is by using LoraWAN - LoraWAN is a low power wide area networking
+										protocol. Acceeration, relative humidity and temperature measurements taken by a PySense device were collected, processed and transmitted using LoRa to The
+										Things Network(TTN). The LoPy board is connected to a LoRaWAN gaateway.  Integration to some third party
+										system for data visualization and possible analysis. In this case, Cayenne (myDevices) was used</p>
+
 									
 									<h5>HARDWARE: PySense, Lopy4,</h5>
-									<h5>SOFTWARE AND PROTOCOL: Python, LoRa</h5>
+									<h5>SOFTWARE: Python, (ATOM IDE) </h5>
+										<h5>COMM PROTOCOL: LoRa</h5>
 								</section>
 								<section>
 									<span class="icon solid major fa-code"></span>
-									<a href="https://github.com/Eldorado7621/potato_disease_classification" target="_blank"><h3>Deployment of Potato disease classifier model to Google Cloud Platform</h3>
-									</a>
-									<p>a CNN model was built to predict if potato is diseased by analysing the picture of the leaf. The uploaded leaf is classified as one of the following "Early Blight", "Late Blight", "Healthy". The end point also gives the confidence level for each prediction.
+									<h3>The Remote Butler</h3>
+									<p>
+										The remote Butler device is an IoT device that enables wireless communication between the sender (presumed to be the house owner) 
+										and a Receiver (presumed to be the Butler). The Sender device contains 3 buttons which signifies 3 different commands.
+										On the Receiver device, there are 3 LEDs each corresponding to the 3 different Sender buttons commands. Also, there is a
+										buzzer which gives 3 different toine sounds depending on the button that was pressed. On the Receiver device, there is an 
+										acknowledgement button which is pressed by the Receiver to acknowledge that he has gotten the command. A corresponding LED on 
+										the sender device is lited when the acknowledgement button is pressed by the sender.
 
-										The model was deployed to Google Cloud Platform and can be tested with postman by using this endpoint- <a href="https://us-central1-potato-prediction.cloudfunctions.net/predict" target="_blank">here<a>
-
-									<br>CREDIT- The project is base on tutorial from codebasics</p>
-									<h5>TECHNOLOGY: Python, Tensorflow, Numpy, GCloud,GSutil, CNN,</h5>
+									</p>
+									
+									<h5>HARDWARE: Pretzel Board(Arduino Nano, ESP8266),Push buttons,LEDs, Resistors</h5>
+									<h5>SOFTWARE AND PROTOCOL: Arduino(C Programming language)</h5>
+									<h5>COMM PROTOCOL: UDP</h5>
 								</section>
-							        <section>
+								<section>
 									<span class="icon solid major fa-code"></span>
-									<a href="https://github.com/Eldorado7621/potato_disease_classification" target="_blank"><h3>Deployment of Potato disease classifier model to Google Cloud Platform</h3>
-									</a>
-									<p>a CNN model was built to predict if potato is diseased by analysing the picture of the leaf. The uploaded leaf is classified as one of the following "Early Blight", "Late Blight", "Healthy". The end point also gives the confidence level for each prediction.
+									<h3>FIT IoT Lab and Riot OS</h3>
+									<p>
+										FIT-IoT LAB testbed is an open testbed of over 2,700 low power wireless nodes and over 117 mobile
+										robots which are available for experimenting with large scale wireless IoT technologies. For the lab project, a sensor node at Saclay FIT-IoT Lab center was used.
+										The data from the sensor node were sent to The Things Network with the Payload formatter set to Cayenne LP so that the data
+										can be visualized on Cayenne dashboard. Cayenne is a third party integration webhook that enables
+										visualization of data that were received on The Things Network.
 
-										The model was deployed to Google Cloud Platform and can be tested with postman by using this endpoint- <a href="https://us-central1-potato-prediction.cloudfunctions.net/predict" target="_blank">here<a>
-
-									<br>CREDIT- The project is base on tutorial from codebasics</p>
-									<h5>TECHNOLOGY: Python, Tensorflow, Numpy, GCloud,GSutil, CNN,</h5>
+									</p>
+									
 								</section>
+							       
 							</div>
 						</div>
 					</section>
