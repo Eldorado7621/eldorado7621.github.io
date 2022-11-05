@@ -24,9 +24,6 @@
 							<li><a href="#hls">Hardware/Software Co-design</a></li>
 							<li><a href="#robot">Robot Path Planning</a></li>
 							
-							
-							<li><a href="#three">Internet Of Things</a></li>
-							<li><a href="#four">Embedded Software Projects</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -97,6 +94,64 @@
 						</div>
 					</section>
 				
+
+
+				
+
+					<section id="hls" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Hardware/Software Co-design</h2>
+							<p>I am an Embedded Software Engineer who enjoys using High Level Synthesis to automate 
+								the design of custom accelerators on System On Chips to achieve high performance and 
+								reduction in load area and optimize resource utilization
+							</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<a href="https://github.com/Eldorado7621/rrt-star" target="_blank">	
+										<h3>Hardware/Software co-design of a deep learning approach for detection of Arrhythmia on low power FPGA resources
+										</h3>
+									</a>
+									<p>
+										Developing hardwares that makes detection of arrhytmia faster and even better at low resources utilization would be highly beneficial.
+										In this project, I explored high level synthesis to generated the morlet wavelet IP that converts, the 
+										1-D time series signal to 2D image that can be inferred by the model on the Zybo board
+									</p>
+
+									
+									<h5>HARDWARE: Zybo board,</h5>
+									<h5>SOFTWARE: C++,HLS, Vivado, Vitis  </h5>
+										
+								</section>
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<a href="https://github.com/Eldorado7621/high-level-synthesis-of-fast-fourier-transform" target="_blank">	
+										<h3>Hardware/Software co-design of Short Time Fourier Transform on low power FPGA resources</h3>
+									</a>
+									<p>
+										Hardware acceleration of STFT offer great benefits in terms of improving the latency, cost, energy utilization, computational speed
+										I was able to achieve a 186% increase in computational speed at low energy.
+
+									</p>
+									
+									<h5>HARDWARE: Zybo board,</h5>
+									<h5>SOFTWARE: C++,HLS, Vivado, Vitis  </h5>
+								</section>
+								
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<a href="https://github.com/Eldorado7621/rrt-star" target="_blank"><h3>Hardware/Software co-design of robotics motion planning RRT-Star algorithm on low power FPGA resources</h3>
+									</a>
+										<p>
+										
+
+									</p>
+									
+								</section>
+							       
+							</div>
+						</div>
+					</section>
 					<!-- Robot-->
 					<section id="robot" class="wrapper style3 fade-up">
 						<div class="inner">							
@@ -124,120 +179,7 @@
 						</div>
 					</section>
 
-				
-
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>INTERNET OF THINGS</h2>
-							<p>"The Internet of things (IoT) is the network of physical devices, vehicles, home
-							appliances and other items embedded with electronics, software, sensors, actuators, and connectivity
-										which enables these objects to connect and exchange data."- Wikipedia
-							</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>LoRaWAN and The Things Network</h3>
-									<p>IoT devices often require interconnections in a network such as Wireless Sensor Networks(WSN). One
-										way of creating such connection is by using LoraWAN - LoraWAN is a low power wide area networking
-										protocol. Acceeration, relative humidity and temperature measurements taken by a PySense device were collected, processed and transmitted using LoRa to The
-										Things Network(TTN). The LoPy board is connected to a LoRaWAN gaateway.  Integration to some third party
-										system for data visualization and possible analysis. In this case, Cayenne (myDevices) was used</p>
-
-									
-									<h5>HARDWARE: PySense, Lopy4,</h5>
-									<h5>SOFTWARE: Python, (ATOM IDE) </h5>
-										<h5>COMM PROTOCOL: LoRa</h5>
-								</section>
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>The Remote Butler</h3>
-									<p>
-										The remote Butler device is an IoT device that enables wireless communication between the sender (presumed to be the house owner) 
-										and a Receiver (presumed to be the Butler). The Sender device contains 3 buttons which signifies 3 different commands.
-										On the Receiver device, there are 3 LEDs each corresponding to the 3 different Sender buttons commands. Also, there is a
-										buzzer which gives 3 different toine sounds depending on the button that was pressed. On the Receiver device, there is an 
-										acknowledgement button which is pressed by the Receiver to acknowledge ...
-
-									</p>
-									
-									<h5>HARDWARE: Pretzel Board(Arduino Nano, ESP8266),Push buttons,LEDs, Resistors</h5>
-									<h5>SOFTWARE AND PROTOCOL: Arduino(C Programming language)</h5>
-									<h5>COMM PROTOCOL: UDP</h5>
-								</section>
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>FIT IoT Lab and Riot OS</h3>
-									<p>
-										FIT-IoT LAB testbed is an open testbed of over 2,700 low power wireless nodes and over 117 mobile
-										robots which are available for experimenting with large scale wireless IoT technologies. For the lab project, a sensor node at Saclay FIT-IoT Lab center was used.
-										The data from the sensor node were sent to The Things Network with the Payload formatter set to Cayenne LP so that the data
-										can be visualized on Cayenne dashboard. Cayenne is a third party integration webhook that enables
-										visualization of data that were received on The Things Network.
-
-									</p>
-									
-								</section>
-							       
-							</div>
-						</div>
-					</section>
-
-						
-					<section id="four" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Embedded Software Projects (FPGA, VHDL, HIGH LEVEL SYNTHESIS, VIVADO)</h2>
-							<p>Giving intelligence to machine can be super fascinating especially with the current buzz of Artificial. Embedded software design helps push the limits of hardware such as in hardware acceleration design projects. Its application cuts across all sectors-health, agriculture, education,etc. 		</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<a href="https://github.com/Eldorado7621/cnn_hardware_accelerator" target="_blank"><h3>Convolution Neural Network Hardware Accelerator</h3></a>
-									<p>Hardware Accelerator helps overcome the challenges of hardware for ceertain applications. In the case of a Convolution Neural Network, one of the challenges is that GPUs are power hungry. For this project, a hardware accelerator was design with focus on low power consumption</p>
-
-									
-									<h5>HARDWARE: Zybo board,</h5>
-									<h5>SOFTWARE: Tensorflow, C++,Vivado, Vitis HLS </h5>
-									<a href="https://github.com/Eldorado7621/cnn_hardware_accelerator" target="_blank">link to Github repo</a>
-										
-								</section>
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<a href="https://github.com/Eldorado7621/high-level-synthesis-of-fast-fourier-transform" target="_blank"><h3> High Level Synthesis of Fast Fourier Tranform</h3></a>
-									<p> Using the IP core made by Vivado might not be suitable for one's application, as such one could want to design custom made IP core or for other instance, one might have some high level code that could be interested in converting into hardware, well High Level Synthesis makes this possible. For this project, I explored HLS with a Fast Fourier Transformation IP </p>
-
-									
-									<h5>HARDWARE: Zybo board,</h5>
-									<h5>SOFTWARE: Tensorflow, C++,Vivado, Vitis HLS </h5>
-									<a href="https://github.com/Eldorado7621/high-level-synthesis-of-fast-fourier-transform" target="_blank">link to Github repo</a>
-										
-								</section>
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<a href="https://github.com/Eldorado7621/deep_learning_for_structural_anomaly_detection" target="_blank"><h3> Deep Learning approach for structural anomaly detection</h3></a>
-									<p>For this project, we explored applying deep learning in detecting anomalies in various structures. The various vibrations generated are picked be Piezo sensors which are then converted to spectogram using FFT and then inferenced by the deep learning model on the hardware, </p>
-
-									
-									<h5>HARDWARE: Zybo board,Piezo sensors</h5>
-									<h5>SOFTWARE: TinyML, Tensorflow, C++,Vivado, Vitis HLS </h5>
-									<a href="https://github.com/Eldorado7621/deep_learning_for_structural_anomaly_detection" target="_blank">link to Github repo</a>
-										
-								</section>
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<a href="https://github.com/Eldorado7621/image-processing-on-zynq-processing-system-" target="_blank"><h3> Image Processing on Zynq processing system</h3></a>
-									<p>Performed average filtering operation on a 512 X 512 px image on a Zybo board. The image is stored in the DDR from where it is fecthed to the Image processing IP core . Since all the pixels can not be fetched at the same time, 3 line buffers are used to hold the data in batches.</p>
-
-									
-									<h5>HARDWARE: Zybo board</h5>
-									<h5>SOFTWARE:  C++,Vivado, Vitis, Verilog </h5>
-									<a href="https://github.com/Eldorado7621/image-processing-on-zynq-processing-system-" target="_blank">link to Github repo</a>
-										
-								</section>
-								
-								
-								
-							</div>
-						</div>
-					</section>
+							
 
 			
 			</div>
